@@ -89,7 +89,7 @@ python3 solve.py --host HOST --port PORT
 
 Local validation completed against the supplied binary and glibc 2.27. The transcript showed a heap leak, an unsorted-bin/libc leak, the `__malloc_hook` overwrite, and the marker `FORGE_SHELL_SUCCESS` followed by `id` output. See [`local-validation.txt`](local-validation.txt) and [`evidence/local-validation.png`](evidence/local-validation.png).
 
-**Remote status:** this run did not establish a connection to the remote service because DNS resolution was unavailable in the analysis environment. No remote flag is claimed or included here.
+**Remote validation (2026-11-09):** The latest recorded target is `w01.ctf.chronos-security.ro:33121`. This environment could not resolve the hostname (`Temporary failure in name resolution`), so no TCP connection or remote exploit run was possible. No verified current IPv4 address for `w01` was available, and no remote flag is claimed. Re-run the solver once the assigned instance is live and its endpoint resolves.
 
 ## AI methodology
 

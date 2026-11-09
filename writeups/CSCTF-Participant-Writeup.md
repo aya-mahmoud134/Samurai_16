@@ -136,12 +136,6 @@ No device boot, network interaction, or execution of firmware code was needed.
 - **Human checks:** The input hash and each CRC were compared against the artifact; the decompressed size and CPIO trailer were checked; both environment copies were independently CRC-checked; the active `recovery=ready` marker was confirmed before using its MAC.
 - **Safety:** The firmware and extracted shell script were inspected as data. Neither was executed.
 
-### Workflow evidence
-
-![Static firmware recovery terminal output](evidence/workflow.png)
-
----
-
 ## PoshTerm Hidden Service Code
 
 **Archive:** `chall.7z`  
@@ -246,12 +240,6 @@ python3 solve.py PoshTerm.exe --show
 - **Human checks:** The hidden handler and RC4 implementation were read directly from the embedded bundle; the MD5 of the aircraft string was independently calculated; the Julian date was independently derived; and the ciphertext length and decrypted syntax were checked.
 - **Safety:** The PE was not executed, and the service helper's network calls were not invoked. The output was reconstructed locally from the embedded algorithm and data.
 
-### Workflow evidence
-
-![Static PoshTerm analysis terminal output](evidence/workflow.png)
-
----
-
 ## Carrier Shadow: Second-Stage Extraction
 
 **Input:** `carrier-shadow` (1,337,736 bytes)  
@@ -345,12 +333,6 @@ python3 solve.py carrier-shadow -o carrier-stage2.elf --show
 - **Meaningful automation:** `readelf` was used to map sections; Python (`struct`, `collections.Counter`, `zlib`, `hashlib`) decoded the address deltas, canonical Huffman stream, xorshift mask and raw DEFLATE payload.
 - **Human checks:** The input hash, section offsets, descriptor bytes, decoded length, XOR check, ELF magic and extracted-stage hash were checked independently. The second stage was inspected as data only.
 - **Safety:** No loader, shellcode or extracted ELF code was executed.
-
-### Workflow evidence
-
-![Static carrier payload extraction terminal output](evidence/workflow.png)
-
----
 
 ## Operation Dawn, Annex Entry 06: Lockbox
 

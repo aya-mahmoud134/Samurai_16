@@ -108,4 +108,4 @@ python3 solve.py PoshTerm.exe --show
 
 ### Workflow evidence
 
-![Static PoshTerm analysis terminal output](evidence/workflow.svg)
+The genuine terminal workflow screenshots are collected in the [consolidated team writeup](../CSCTF-Participant-Writeup.md#workflow-screenshots).

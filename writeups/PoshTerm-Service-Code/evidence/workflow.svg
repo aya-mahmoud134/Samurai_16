@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320">
+<rect width="100%" height="100%" rx="18" fill="#151a22"/>
+<rect x="0" y="0" width="1500" height="62" rx="18" fill="#202833"/>
+<text x="30" y="39" fill="#e6edf3" font-family="DejaVu Sans Mono, monospace" font-size="22">PoshTerm — hidden service code</text>
+<text x="1220" y="39" fill="#8da4b9" font-family="DejaVu Sans Mono, monospace" font-size="16">STATIC ANALYSIS</text>
+<text x="30" y="88" fill="#78cd93" font-family="DejaVu Sans Mono, monospace" font-size="17">$ python3 solve.py PoshTerm.exe</text>
+<text x="30" y="113" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">PoshTerm.exe SHA-256 OK: a20d559ea90c7f64241314863c4ee194f8dc1467d42eaf6211c43de7f530f135</text>
+<text x="30" y="138" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">hidden command, environment guard, MD5 checks, and first-flight lookup found</text>
+<text x="30" y="163" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">aircraft argument MD5 matches embedded constant: e3db766fd63bf1afdd34abcac1f5c112</text>
+<text x="30" y="188" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">first flight 1965-10-14 -&gt; Julian date 2439047.5000000</text>
+<text x="30" y="213" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">RC4 decrypted 48 bytes; syntax check PASS; SHA-256=686a4cbc94b0b8a59a06225b3be3954455759ee4844c5031d89185c960831c4c</text>
+<text x="30" y="238" fill="#d0dae4" font-family="DejaVu Sans Mono, monospace" font-size="17">the environment gate was not bypassed by running the PE; the embedded transform was reproduced offline</text>
+</svg>

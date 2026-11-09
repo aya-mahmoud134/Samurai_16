@@ -19,9 +19,6 @@ This index contains the Reverse Engineering challenges for which the analysis an
 | [Meridian-Class CAU Recovery](Meridian-CAU-Recovery/README.md) | Static x86-64 analysis, inverse XOR-shift and modular multiplication | Three 64-bit block hashes reproduced; 24-byte ASCII length verified |
 | [Split Horizon — Vireo Parser Differential](Split-Horizon/README.md) | .NET IL, PE static data, HMAC-derived frame key, TCP/PCAP reassembly, JSON parser differential | Eight commands decrypted; executed/logged waypoints distinguished; audit chain and Ed25519 signature verified |
 
-## Additional local Pwn analysis
-
-The repository also retains the Forge, Relic and Stepper Pwn folders. Their current evidence demonstrates local exploitation with the bundled runtime libraries. Remote challenge instances were not available during the last connection attempt, so these folders are not included in this submission-ready Reverse index and no remote flag is claimed.
 
 ## Submission checklist
 

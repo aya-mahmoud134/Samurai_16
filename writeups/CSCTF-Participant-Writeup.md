@@ -663,13 +663,3 @@ The following are genuine terminal screenshots captured from actual local solver
 ![CAU static solver workflow](evidence/meridian-cau.png)
 
 ![Split Horizon PCAP and audit verification workflow](evidence/split-horizon.png)
-
----
-
-## Final review before submission
-
-1. Replace the division, team name and author placeholders.
-2. Keep only challenges confirmed as credited to the team.
-3. If the team is not confirmed in the top five, use the `PARTICIPANT` subject line; otherwise use `WINNER`.
-4. Check this file against the organizer's official attached template. That template was not present in the materials available for this edit.
-5. Send the Markdown file to `csctf@chronos-security.ro` with the appropriate subject line. No email has been sent by this workflow.

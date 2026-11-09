@@ -94,7 +94,7 @@ python3 solve.py --host HOST --port PORT
 
 Local validation completed with the bundled glibc 2.31. The transcript showed the initial stack pivot, an eight-byte `read@libc` leak, the calculated libc base and `system` address, and the `RELIC_ROP_SUCCESS` marker followed by `id` output. See [`local-validation.txt`](local-validation.txt) and [`evidence/local-validation.png`](evidence/local-validation.png).
 
-**Remote status:** this run did not establish a connection to the remote service because DNS resolution was unavailable in the analysis environment. No remote flag is claimed or included here.
+**Remote validation (2026-11-09):** The latest recorded instance endpoint is `w05.ctf.chronos-security.ro:33450` (older ports were superseded). Current hostname resolution failed with `Temporary failure in name resolution`. The last-known historical address for `w05`, `34.141.226.105`, was tested on port `33450` and refused the connection; that historical address may no longer be current. No remote flag is claimed. Re-run against the current assigned instance once it is live.
 
 ## AI methodology
 

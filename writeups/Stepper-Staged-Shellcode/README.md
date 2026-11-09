@@ -91,7 +91,7 @@ python3 solve.py --host HOST --port PORT
 
 Local validation completed against the supplied binary. All eleven setup/read steps were accepted, the final jump reached the second-stage shellcode, and the shell printed `STEPPER_SHELL_SUCCESS` followed by `id` output. See [`local-validation.txt`](local-validation.txt) and [`evidence/local-validation.png`](evidence/local-validation.png).
 
-**Remote status:** this run did not establish a connection to the remote service because DNS resolution was unavailable in the analysis environment. No remote flag is claimed or included here.
+**Remote validation (2026-11-09):** The latest recorded endpoint is `w05.ctf.chronos-security.ro:33400`. Current hostname resolution failed with `Temporary failure in name resolution`. The last-known historical address for `w05`, `34.141.226.105`, was tested on port `33400` and refused the connection; that historical address may no longer be current. No remote flag is claimed. Re-run against the current assigned instance once it is live.
 
 ## AI methodology
 

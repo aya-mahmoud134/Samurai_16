@@ -24,7 +24,7 @@ This folder contains human-readable Reverse Engineering and Pwn writeups. Each c
 | [Relic — ret2csu](Relic-Return-to-CSU/README.md) | Stack overflow, three-stage ret2csu, `.bss` pivots, GOT leak, libc `system()` | Shell marker and `id` output using the bundled glibc 2.31 |
 | [Stepper — Staged Shellcode](Stepper-Staged-Shellcode/README.md) | Six-byte instruction filter, persistent guest registers, runtime `read@plt` derivation, RWX second stage | All setup steps accepted; staged shell marker and `id` output |
 
-**Remote verification note:** the three Pwn chains were validated against their supplied local challenge builds. Remote DNS resolution was unavailable during this run, so no remote flag is claimed or included. Re-run the supplied solvers against the authorized event instances to complete remote validation.
+**Remote verification (2026-11-09):** Local validation for the three Pwn chains is documented. Remote checks were attempted using the latest recorded targets: Forge `w01.ctf.chronos-security.ro:33121`, Relic `w05.ctf.chronos-security.ro:33450`, and Stepper `w05.ctf.chronos-security.ro:33400`. Current DNS resolution failed. The last-known historical `w05` address (`34.141.226.105`) refused the Relic and Stepper ports. No remote flags were recovered or claimed. See [Pwn Remote Verification](Pwn-Remote-Verification.md). The endpoints must be refreshed from the live challenge launcher before remote verification can be completed.
 
 ## Submission note
 

@@ -98,4 +98,4 @@ python3 solve.py carrier-shadow -o carrier-stage2.elf --show
 
 ### Workflow evidence
 
-![Static carrier payload extraction terminal output](evidence/workflow.svg)
+The genuine terminal workflow screenshots are collected in the [consolidated team writeup](../CSCTF-Participant-Writeup.md#workflow-screenshots).

@@ -114,4 +114,4 @@ No device boot, network interaction, or execution of firmware code was needed.
 
 ### Workflow evidence
 
-![Static firmware recovery terminal output](evidence/workflow.svg)
+The genuine terminal workflow screenshots are collected in the [consolidated team writeup](../CSCTF-Participant-Writeup.md#workflow-screenshots).

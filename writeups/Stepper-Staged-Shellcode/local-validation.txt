@@ -1,0 +1,22 @@
+[+] Started bundled Stepper locally
+=== STEPPER ===
+Your code runs one small step at a time.
+Up to 12 steps, 6 bytes each. Registers are yours to keep.
+Bytes 0x0f 0x05 0x34 0xcd are forbidden.
+
+[step 1/12] length> step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+step done.
+STEPPER_SHELL_SUCCESS
+uid=0(root) gid=0(root) groups=0(root)
+/mnt/data/challenges/stepper
+[+] Shell execution confirmed
+[-] No flag was returned by this target session
